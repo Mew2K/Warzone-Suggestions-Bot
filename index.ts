@@ -86,6 +86,7 @@ client.on('messageCreate', (message) => {
             //    content: 'Here: ' + message.attachments.first()?.proxyURL
             //})
             break
+	// How do I let people attach images in their suggestion?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!?
         case 'suggest':
             const embed = new MessageEmbed()
 	            .setColor('#fad378')
